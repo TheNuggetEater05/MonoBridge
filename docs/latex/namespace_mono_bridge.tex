@@ -1,0 +1,117 @@
+\doxysection{Mono\+Bridge Namespace Reference}
+\hypertarget{namespace_mono_bridge}{}\label{namespace_mono_bridge}\index{MonoBridge@{MonoBridge}}
+
+
+Namespace that contains all of \doxylink{namespace_mono_bridge}{Mono\+Bridge}\textquotesingle{}s exposed functionality.  
+
+
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{MBG\+\_\+\+STATUS}} \{ \newline
+\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca09e6e37e334db3890fb11c3a467f76b6}{MBG\+\_\+\+OK}} = 0
+, \doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3acab15f23f90fb79f3d7b7964423308d054}{MBG\+\_\+\+ALREADYINITIALIZED}}
+, \doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca78a2a82a621aa1a30bb6396143d9a48b}{MBG\+\_\+\+MONONOTFOUND}}
+, \doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca7dee47cec990a65ddd3ee06f4b210cc1}{MBG\+\_\+\+NOTINITIALIZED}}
+, \newline
+\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca2ab39385436cdbc695f6b7606977ed3c}{MBG\+\_\+\+UNKNOWN}}
+ \}
+\begin{DoxyCompactList}\small\item\em Potential errors in initialization. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{MBG\+\_\+\+STATUS}} \doxymbox{\hyperlink{namespace_mono_bridge_a1d87f4d579eeac3b01c91e851f9ea182}{Initialize}} (HMODULE h\+Mono)
+\begin{DoxyCompactList}\small\item\em Initializes \doxylink{namespace_mono_bridge}{Mono\+Bridge}. \end{DoxyCompactList}\item 
+const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{namespace_mono_bridge_ad64c0a1b8e1c40edf518c2690fa889c5}{Status\+To\+String}} (\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{MBG\+\_\+\+STATUS}} status)
+\begin{DoxyCompactList}\small\item\em Converts MB\+\_\+\+STATUS into C strings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Namespace that contains all of \doxylink{namespace_mono_bridge}{Mono\+Bridge}\textquotesingle{}s exposed functionality. 
+
+\label{namespace_mono_bridge_doc-enum-members}
+\Hypertarget{namespace_mono_bridge_doc-enum-members}
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}\index{MonoBridge@{MonoBridge}!MBG\_STATUS@{MBG\_STATUS}}
+\index{MBG\_STATUS@{MBG\_STATUS}!MonoBridge@{MonoBridge}}
+\doxysubsubsection{\texorpdfstring{MBG\_STATUS}{MBG\_STATUS}}
+{\footnotesize\ttfamily \label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac} 
+enum \doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{Mono\+Bridge::\+\+MBG\+\_\+\+STATUS}}}
+
+
+
+Potential errors in initialization. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_OK@{MBG\_OK}!MonoBridge@{MonoBridge}}
+\index{MonoBridge@{MonoBridge}!MBG\_OK@{MBG\_OK}}
+}\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca09e6e37e334db3890fb11c3a467f76b6}\label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca09e6e37e334db3890fb11c3a467f76b6} 
+MBG\+\_\+\+OK&Completed successfully. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_ALREADYINITIALIZED@{MBG\_ALREADYINITIALIZED}!MonoBridge@{MonoBridge}}
+\index{MonoBridge@{MonoBridge}!MBG\_ALREADYINITIALIZED@{MBG\_ALREADYINITIALIZED}}
+}\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3acab15f23f90fb79f3d7b7964423308d054}\label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3acab15f23f90fb79f3d7b7964423308d054} 
+MBG\+\_\+\+ALREADYINITIALIZED&\doxylink{namespace_mono_bridge}{Mono\+Bridge} is already initialized. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_MONONOTFOUND@{MBG\_MONONOTFOUND}!MonoBridge@{MonoBridge}}
+\index{MonoBridge@{MonoBridge}!MBG\_MONONOTFOUND@{MBG\_MONONOTFOUND}}
+}\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca78a2a82a621aa1a30bb6396143d9a48b}\label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca78a2a82a621aa1a30bb6396143d9a48b} 
+MBG\+\_\+\+MONONOTFOUND&Failed to find mono runtime. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_NOTINITIALIZED@{MBG\_NOTINITIALIZED}!MonoBridge@{MonoBridge}}
+\index{MonoBridge@{MonoBridge}!MBG\_NOTINITIALIZED@{MBG\_NOTINITIALIZED}}
+}\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca7dee47cec990a65ddd3ee06f4b210cc1}\label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca7dee47cec990a65ddd3ee06f4b210cc1} 
+MBG\+\_\+\+NOTINITIALIZED&\doxylink{namespace_mono_bridge}{Mono\+Bridge} isn\textquotesingle{}t initialized. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_UNKNOWN@{MBG\_UNKNOWN}!MonoBridge@{MonoBridge}}
+\index{MonoBridge@{MonoBridge}!MBG\_UNKNOWN@{MBG\_UNKNOWN}}
+}\Hypertarget{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca2ab39385436cdbc695f6b7606977ed3c}\label{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3aca2ab39385436cdbc695f6b7606977ed3c} 
+MBG\+\_\+\+UNKNOWN&Unknown error. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{namespace_mono_bridge_doc-func-members}
+\Hypertarget{namespace_mono_bridge_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespace_mono_bridge_a1d87f4d579eeac3b01c91e851f9ea182}\index{MonoBridge@{MonoBridge}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!MonoBridge@{MonoBridge}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{namespace_mono_bridge_a1d87f4d579eeac3b01c91e851f9ea182} 
+\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{MBG\+\_\+\+STATUS}} Mono\+Bridge::\+\+Initialize (\begin{DoxyParamCaption}\item[{HMODULE}]{h\+Mono}{}\end{DoxyParamCaption})}
+
+
+
+Initializes \doxylink{namespace_mono_bridge}{Mono\+Bridge}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+Mono} & Handle to the loaded mono module.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A value from ::\+\+MBG\+\_\+\+STATUS. 
+\end{DoxyReturn}
+\Hypertarget{namespace_mono_bridge_ad64c0a1b8e1c40edf518c2690fa889c5}\index{MonoBridge@{MonoBridge}!StatusToString@{StatusToString}}
+\index{StatusToString@{StatusToString}!MonoBridge@{MonoBridge}}
+\doxysubsubsection{\texorpdfstring{StatusToString()}{StatusToString()}}
+{\footnotesize\ttfamily \label{namespace_mono_bridge_ad64c0a1b8e1c40edf518c2690fa889c5} 
+const char \texorpdfstring{$\ast$}{*} Mono\+Bridge::\+\+Status\+To\+String (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespace_mono_bridge_a7b665f5bfdb0623337624f6f0df7f3ac}{MBG\+\_\+\+STATUS}}}]{status}{}\end{DoxyParamCaption})}
+
+
+
+Converts MB\+\_\+\+STATUS into C strings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & Status code.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+MB\+\_\+\+STATUS as a C string. 
+\end{DoxyReturn}

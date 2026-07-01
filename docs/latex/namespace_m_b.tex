@@ -1,0 +1,117 @@
+\doxysection{MB Namespace Reference}
+\hypertarget{namespace_m_b}{}\label{namespace_m_b}\index{MB@{MB}}
+
+
+Namespace that contains all of Mono\+Bridge\textquotesingle{}s exposed functionality.  
+
+
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}} \{ \newline
+\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa7ac120f028c91e76605f5d8abcfd6118}{MBG\+\_\+\+OK}} = 0
+, \doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa50e61feff639eb1c030c7ea22eef41b}{MBG\+\_\+\+ALREADYINITIALIZED}}
+, \doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa3227476a120041f7480fc920a76767f8}{MBG\+\_\+\+MONONOTFOUND}}
+, \doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1facf5da74ac72b29707a30d708492e0577}{MBG\+\_\+\+NOTINITIALIZED}}
+, \newline
+\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa28dd78eb51b9781f9cfa1cee97a73f7}{MBG\+\_\+\+UNKNOWN}}
+ \}
+\begin{DoxyCompactList}\small\item\em Potential errors in initialization. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}} \doxymbox{\hyperlink{namespace_m_b_a5eccf6e919b9b1c436932b0dd58a26d1}{Initialize}} (HMODULE h\+Mono)
+\begin{DoxyCompactList}\small\item\em Initializes Mono\+Bridge. \end{DoxyCompactList}\item 
+const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{namespace_m_b_a2dcc797a85909273a1ad7865d79dd49e}{Status\+To\+String}} (\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}} status)
+\begin{DoxyCompactList}\small\item\em Converts MB\+\_\+\+STATUS into C strings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Namespace that contains all of Mono\+Bridge\textquotesingle{}s exposed functionality. 
+
+\label{namespace_m_b_doc-enum-members}
+\Hypertarget{namespace_m_b_doc-enum-members}
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}\index{MB@{MB}!MBG\_STATUS@{MBG\_STATUS}}
+\index{MBG\_STATUS@{MBG\_STATUS}!MB@{MB}}
+\doxysubsubsection{\texorpdfstring{MBG\_STATUS}{MBG\_STATUS}}
+{\footnotesize\ttfamily \label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f} 
+enum \doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MB::\+\+MBG\+\_\+\+STATUS}}}
+
+
+
+Potential errors in initialization. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_OK@{MBG\_OK}!MB@{MB}}
+\index{MB@{MB}!MBG\_OK@{MBG\_OK}}
+}\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa7ac120f028c91e76605f5d8abcfd6118}\label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa7ac120f028c91e76605f5d8abcfd6118} 
+MBG\+\_\+\+OK&Completed successfully. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_ALREADYINITIALIZED@{MBG\_ALREADYINITIALIZED}!MB@{MB}}
+\index{MB@{MB}!MBG\_ALREADYINITIALIZED@{MBG\_ALREADYINITIALIZED}}
+}\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa50e61feff639eb1c030c7ea22eef41b}\label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa50e61feff639eb1c030c7ea22eef41b} 
+MBG\+\_\+\+ALREADYINITIALIZED&Already initialized. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_MONONOTFOUND@{MBG\_MONONOTFOUND}!MB@{MB}}
+\index{MB@{MB}!MBG\_MONONOTFOUND@{MBG\_MONONOTFOUND}}
+}\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa3227476a120041f7480fc920a76767f8}\label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1fa3227476a120041f7480fc920a76767f8} 
+MBG\+\_\+\+MONONOTFOUND&Failed to find mono runtime. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_NOTINITIALIZED@{MBG\_NOTINITIALIZED}!MB@{MB}}
+\index{MB@{MB}!MBG\_NOTINITIALIZED@{MBG\_NOTINITIALIZED}}
+}\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1facf5da74ac72b29707a30d708492e0577}\label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1facf5da74ac72b29707a30d708492e0577} 
+MBG\+\_\+\+NOTINITIALIZED&Mono\+Bridge isn\textquotesingle{}t initialized. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MBG\_UNKNOWN@{MBG\_UNKNOWN}!MB@{MB}}
+\index{MB@{MB}!MBG\_UNKNOWN@{MBG\_UNKNOWN}}
+}\Hypertarget{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa28dd78eb51b9781f9cfa1cee97a73f7}\label{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1faa28dd78eb51b9781f9cfa1cee97a73f7} 
+MBG\+\_\+\+UNKNOWN&Unknown error. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{namespace_m_b_doc-func-members}
+\Hypertarget{namespace_m_b_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespace_m_b_a5eccf6e919b9b1c436932b0dd58a26d1}\index{MB@{MB}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!MB@{MB}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{namespace_m_b_a5eccf6e919b9b1c436932b0dd58a26d1} 
+\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}} MB::\+\+Initialize (\begin{DoxyParamCaption}\item[{HMODULE}]{h\+Mono}{}\end{DoxyParamCaption})}
+
+
+
+Initializes Mono\+Bridge. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+Mono} & Handle to the loaded mono module.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A value from \doxylink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}. 
+\end{DoxyReturn}
+\Hypertarget{namespace_m_b_a2dcc797a85909273a1ad7865d79dd49e}\index{MB@{MB}!StatusToString@{StatusToString}}
+\index{StatusToString@{StatusToString}!MB@{MB}}
+\doxysubsubsection{\texorpdfstring{StatusToString()}{StatusToString()}}
+{\footnotesize\ttfamily \label{namespace_m_b_a2dcc797a85909273a1ad7865d79dd49e} 
+const char \texorpdfstring{$\ast$}{*} MB::\+\+Status\+To\+String (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespace_m_b_aaa3860c205dc2041c8a8f83d4f403c1f}{MBG\+\_\+\+STATUS}}}]{status}{}\end{DoxyParamCaption})}
+
+
+
+Converts MB\+\_\+\+STATUS into C strings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & Status code.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+MB\+\_\+\+STATUS as a C string. 
+\end{DoxyReturn}
